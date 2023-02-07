@@ -1,4 +1,6 @@
+import Header from '@/components/Header'
 import './globals.css'
+import Providers from './Providers'
 
 export default function RootLayout({ children }) {
   return (
@@ -7,8 +9,15 @@ export default function RootLayout({ children }) {
         <head /> will contain the components returned by the nearest parent
         head.js. Find out more at https://beta.nextjs.org/docs/api-reference/file-conventions/head
       */}
-      <head />
-      <body>{children}</body>
+      <head/>
+      <body className="debug-screens">
+        <Providers>
+        <Header/>
+
+        {children}
+
+        </Providers>
+        </body>
     </html>
   )
 }

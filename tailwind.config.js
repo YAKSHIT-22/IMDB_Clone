@@ -35,11 +35,12 @@ module.exports = {
 				'128': '32rem',
 			  },
         fontFamily: {
-          monts: ["Montserrat", "sans-serif"],
+          monts: ["Poppins", "Helvetica","sans-serif"],
         },
     },
   },
   plugins: [
     require('tailwindcss-debug-screens'),
   ],
+  darkMode: "class",
 }
