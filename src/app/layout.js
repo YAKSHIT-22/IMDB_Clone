@@ -11,7 +11,7 @@ export default function RootLayout({ children }) {
         head.js. Find out more at https://beta.nextjs.org/docs/api-reference/file-conventions/head
       */}
       <head/>
-      <body className="debug-screens">
+      <body className="debug-screens font-monts">
         <Providers>
         <Header/>
         <Navbar/>
