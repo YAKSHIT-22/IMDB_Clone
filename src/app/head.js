@@ -6,7 +6,7 @@ export default function Head() {
         rel="icon"
         href="https://m.media-amazon.com/images/G/01/imdb/images-ANDW73HA/favicon_desktop_32x32._CB1582158068_.png"
       />
-      <link rel="canonical" href="" />
+      <link rel="canonical" href="https://imdbclone-nextjs.vercel.app/"/>
       <meta charset="UTF-8" />
       <meta http-equiv="X-UA-Compatible" content="IE=edge" />
       <meta name="viewport" content="width=device-width, initial-scale=1" />
