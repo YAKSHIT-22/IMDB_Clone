@@ -1,4 +1,5 @@
 import Header from '@/components/Header'
+import Navbar from '@/components/Navbar'
 import './globals.css'
 import Providers from './Providers'
 
@@ -13,6 +14,7 @@ export default function RootLayout({ children }) {
       <body className="debug-screens">
         <Providers>
         <Header/>
+        <Navbar/>
 
         {children}
 

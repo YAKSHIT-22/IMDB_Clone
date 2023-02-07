@@ -14,7 +14,7 @@ export default function Header() {
        <div className="flex items-center justify-center gap-4">
             <DarkModeSwitch/>
             <Link href="/">
-                <h2 className="text-2xl p-1 font-monts font-bold flex items-center justify-center gap-1"><span className="bg-amber-500  dark:hover:bg-white hover:bg-amber-500 dark:hover:text-amber-500 p-2 rounded-sm transition duration-500 ease-in-out">IMDB</span><span className="text-xl hidden sm:inline">CLONE</span></h2>
+                <h2 className="text-2xl p-1 font-monts font-bold flex items-center justify-center gap-2"><span className="bg-amber-500  dark:hover:bg-white hover:bg-amber-500 dark:hover:text-amber-500 p-2 rounded-sm transition duration-500 ease-in-out">IMDB</span><span className="text-xl hidden sm:inline">CLONE</span></h2>
             </Link>
        </div>
     </div>
